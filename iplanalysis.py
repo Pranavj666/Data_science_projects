@@ -755,7 +755,7 @@ def create_comprehensive_report(matches_df, deliveries_df, output_file='ipl_comp
         </div>
         
         <div class="section">
-            <h2>🏆 Team Performance Analysis</h2>
+            <h2> Team Performance Analysis</h2>
             <p>Analysis of team performance across different metrics and seasons.</p>
             <table>
                 <tr><th>Metric</th><th>Finding</th><th>Impact</th></tr>
@@ -779,7 +779,7 @@ def create_comprehensive_report(matches_df, deliveries_df, output_file='ipl_comp
         </div>
         
         <div class="section">
-            <h2>🔮 Predictive Model Performance</h2>
+            <h2> Predictive Model Performance</h2>
             <p>Our machine learning models achieved significant accuracy in predicting match outcomes:</p>
             <div class="metric">
                 <div class="metric-value">73.2%</div>
@@ -833,7 +833,7 @@ def run_comprehensive_analysis():
     """
     Run all analysis modules with sample data
     """
-    print("🏏 Starting Comprehensive IPL Analysis")
+    print(" Starting Comprehensive IPL Analysis")
     print("=" * 50)
     
     # This would typically load real data
@@ -871,8 +871,8 @@ def run_comprehensive_analysis():
     viz_engine = IPLVisualizationEngine(matches_sample, deliveries_sample)
     metrics_calc = IPLAdvancedMetrics(matches_sample, deliveries_sample)
     
-    print("✅ All analysis modules initialized successfully!")
-    print("📊 Sample analyses can now be run with real IPL data")
+    print(" All analysis modules initialized successfully!")
+    print(" Sample analyses can now be run with real IPL data")
     
     # Generate sample report
     create_comprehensive_report(matches_sample, deliveries_sample)
